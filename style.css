@@ -1,0 +1,195 @@
+/* Reset basic */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: pink;
+  justify-content: center;
+   align-items: center;
+    height: 100vh;
+}
+
+/* ✅ Navbar Styling */
+.navbar {
+  background-color: #97031c;
+  color: #ff5c8a;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search i {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.auth-links a {
+  margin-left: 15px;
+  color: #ff5c8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+/* 👤 Form Styling */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ff5c8a;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #97031c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+form p {
+  margin-top: 15px;
+}
+
+
+/* signup styling */
+.form {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ff5c8a;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center
+}
+
+/*branches*/
+.Office-Branches{
+  max-width: 400vw;
+  height: 130vh;
+  background: #ff5c8a;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.DHA {
+  width: 350px;
+  height: 600px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.Malir {
+  width: 350px;
+  height: 600px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.Gulshan {
+  width: 350px;
+  height: 600px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+ /* Schedule-List */
+ .schedule-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .event {
+      border-left: 5px solid #e91e63;
+      padding-left: 15px;
+      margin-bottom: 25px;
+    }
+     .event h2 {
+      color: #e91e63;
+      margin: 0;
+    }
+
+    .event p {
+      margin: 5px 0;
+      color: #555;
+    }
+     .time {
+      font-weight: bold;
+      color: #333;
+    }
+     .register-btn {
+      background-color: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 10px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .register-btn:hover {
+      background-color: #c2185b;
+    }
+
+
+
+
+    /* .slider {
+      width: 600px;
+      height: 400px;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 100%;
+    } */
